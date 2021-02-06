@@ -4,16 +4,13 @@
 	<title>Радио-Решёты</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="Radio.css">
+	<script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+	<script type="text/javascript">
+  VK.init({apiId: 7752562, onlyWidgets: true});
+</script>
 </head>
 <body>
-	<script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
-
-<!-- VK Widget -->
-<div id="vk_community_messages"></div>
-<script type="text/javascript">
-VK.Widgets.CommunityMessages("vk_community_messages", 127607773, {expanded: "1",disableExpandChatSound: "1",disableNewMessagesSound: "1",tooltipButtonText: "Заказать песню."});
-</script>
-	<div id="top" class="info1">а
+	<div id="top" class="info1">
 		<div class="menu">
 			<div class="play-button">
 				 <a class="none-underline" href="http://c32.radioboss.fm:8312/stream">
@@ -28,7 +25,12 @@ VK.Widgets.CommunityMessages("vk_community_messages", 127607773, {expanded: "1",
 		<iframe src="https://calendar.google.com/calendar/embed?src=2tp8tsa20cakr6ig3ppbslt5lk%40group.calendar.google.com&ctz=Asia%2FKrasnoyarsk" class="calendar" frameborder="0" scrolling="no"></iframe>
 	</div>
 	<div id="bottom" class="info2">
-		<p>asdasd</p>
+		<div id='rbcloud_recent16961' data-cnt='10'></div>
+<script src='https://c32.radioboss.fm/w/recent.js?u=312&amp;wid=16961'></script>
+		<div id="vk_comments"></div>
+<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 1000000, attach: "*"});
+</script>
 	</div>
 </body>
 </html>
